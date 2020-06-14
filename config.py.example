@@ -1,0 +1,16 @@
+# The URL to be checked
+SITE_TO_CHECK="http://www.example.com/"
+
+# URI of the POSTGRES instance, together with username, password and database
+POSTGRES_URI="postgres://user:password@postgres.aivencloud.com:port/database?sslmode=require"
+
+# URI of the Kafka instance
+KAFKA_URI="kafka.aivencloud.com:port"
+
+# Kafka topic to use, need to be created before hand in Kafka
+KAFKA_TOPIC="test"
+
+# SSL certs and key for Kafka
+KAFKA_ACCESS_KEY="credentials/service.key"
+KAFKA_ACCESS_CERT="credentials/service.cert"
+KAFKA_CA_CERT="credentials/ca.pem"
